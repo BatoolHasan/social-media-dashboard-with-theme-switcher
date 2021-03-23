@@ -57,7 +57,7 @@ const OverviewCard = (props)=>{
         <StyledCardTitle currentTheme={theme}>{props.cardTitle}</StyledCardTitle>
         <StyledIcon src={props.socialIcon} alt={props.socialIconAlt}/>
         <StyledCardNumber currentTheme={theme}>{props.cardNumber}</StyledCardNumber>
-        <StyledStatContainer alt={props.arrowAlt} currentTheme={theme}><StyledIcon className="mt-half" src={props.arrow} alt={props.arrowAlt}/><p>{props.statText}</p></StyledStatContainer>
+        <StyledStatContainer currentTheme={theme}><StyledIcon className="mt-half" src={props.arrow} alt={props.arrowAlt}/><p>{props.statText}</p></StyledStatContainer>
 </StyledOverviewCard>
         )}
         </ThemeContext.Consumer>

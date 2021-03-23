@@ -33,7 +33,7 @@ const Attribution = ()=>{
    
     return (  <ThemeContext.Consumer>
     {({theme}) => (<StyledAttribution className="attribution" currentTheme={theme}>
-    Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank" rel="noopenner noreferrer">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
     Coded by <a href="https://www.github.com">Batool Hasan</a>.
     </StyledAttribution>
     )}
