@@ -1,0 +1,48 @@
+//COLORS
+$Lime_Green: hsl(163, 72%, 41%);
+$Bright_Red: hsl(356, 69%, 56%);
+$Facebook: hsl(208, 92%, 53%);
+$Twitter: hsl(203, 89%, 53%);
+$Instagram: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
+$YouTube: hsl(348, 97%, 39%);
+
+//DARK THEME
+$Toggle_Dark: linear-gradient (hsl(210, 78%, 56%) to hsl(146, 68%, 55%));
+//LIGHT THEME
+$Toggle_Light: hsl(230, 22%, 74%);
+
+//NEUTRAL
+//DARK THEME
+$Very_Dark_Blue_BG: hsl(230, 17%, 14%);
+$Very_Dark_Blue_Top_BG_Pattern: hsl(231, 16%, 23%);
+$Dark_Desaturated_Blue_Card_BG: hsl(228, 28%, 20%);
+$Desaturated_Blue_Text: hsl(228, 34%, 66%);
+$White_Text: hsl(0, 0%, 100%);
+//LIGHT THEME
+$White_BG: hsl(0, 0%, 100%);
+$Very_Pale_Blue_Top_BG_Pattern: hsl(225, 100%, 98%);
+$Light_Grayish_Blue_Card_BG: hsl(227, 47%, 96%);
+$Dark_Grayish_Blue_Text: hsl(228, 12%, 44%);
+$Very_Dark_Blue_Text: hsl(230, 17%, 14%);
+
+//FONT
+$font-size: 0.875rem; //overview heading size
+$font-family: "Inter", sans-serif;
+$weight_regular: 400;
+$weight_bold: 700;
+
+//RESETS
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+a {
+  font-family: $font-family;
+}
+body {
+  font-size: $font-size;
+}
