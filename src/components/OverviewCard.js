@@ -40,7 +40,7 @@ const StyledIcon=styled.img.attrs(props=>{
 `;
 
 const StyledStatContainer = styled.div`
-color:${props=>props.alt==='Decrease'?props.theme.Bright_Red:props.theme.Lime_Green};
+color:${props=>props.arrowAlt==='Decrease'?props.theme.Bright_Red:props.theme.Lime_Green};
 display:flex;
 justify-content:center;
 align-items:center;
@@ -57,7 +57,7 @@ const OverviewCard = (props)=>{
         <StyledCardTitle currentTheme={theme}>{props.cardTitle}</StyledCardTitle>
         <StyledIcon src={props.socialIcon} alt={props.socialIconAlt}/>
         <StyledCardNumber currentTheme={theme}>{props.cardNumber}</StyledCardNumber>
-        <StyledStatContainer currentTheme={theme}><StyledIcon className="mt-half" src={props.arrow} alt={props.arrowAlt}/><p>{props.statText}</p></StyledStatContainer>
+        <StyledStatContainer arrowAlt={props.arrowAlt} currentTheme={theme}><StyledIcon className="mt-half" src={props.arrow} alt={props.arrowAlt}/><p>{props.statText}</p></StyledStatContainer>
 </StyledOverviewCard>
         )}
         </ThemeContext.Consumer>
